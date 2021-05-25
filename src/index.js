@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Date from './date';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Date />
   </React.StrictMode>,
   document.getElementById('root')
 );
